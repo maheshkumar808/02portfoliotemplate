@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Form() {
+function ContactForm() {
   return (
     <section className="w-full bg-gray-500 flex justify-center">
-      <form className="w-full max-w-2xl grid grid-cols-2 gap-4 p-4">
+      <form className="w-full lg:max-w-screen-lg grid grid-cols-2 gap-4 p-4">
         <div className="col-span-1">
           <input
             className="w-full p-4 rounded-md text-lg text-gray-700"
@@ -57,4 +57,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default ContactForm;

@@ -4,9 +4,9 @@ import ImageCard from './elements/ImageCard';
 function Portfolio() {
   return (
     <section id="portfolio" className="w-full bg-slate-200">
-      <div className="lg:max-w-screen-xl justify-items-center mx-auto p-6 ">
+      <div className="lg:max-w-screen-xl justify-items-center mx-auto py-10 p-6 ">
         <div className="w-full  text-center">
-          <h1 className="text-3xl text-gray-800 font-bold ">
+          <h1 className="text-4xl text-gray-800 font-bold ">
             Here's some stuff I made recently.
           </h1>
           <p className="text-lg text-gray-600 p-6">
@@ -14,7 +14,7 @@ function Portfolio() {
             feugiat
           </p>
         </div>
-        <div className="w-full grid md:cols-2 lg:grid-cols-3 gap-4 p-6">
+        <div className="w-full grid md:cols-2 lg:grid-cols-3 gap-4 ">
           <div className="col-span-1">
             <ImageCard
               image="https://html5up.net/uploads/demos/miniport/images/pic01.jpg"

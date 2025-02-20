@@ -20,9 +20,11 @@ const Header = () => {
             Portfolio
           </div>
         </Link>
-        <div className=" rounded-lg py-2 px-4 hover:bg-gray-900 text-lg">
-          Contact
-        </div>
+        <Link href="#contact">
+          <div className=" rounded-lg py-2 px-4 hover:bg-gray-900 text-lg">
+            Contact
+          </div>
+        </Link>
       </div>
     </section>
   );

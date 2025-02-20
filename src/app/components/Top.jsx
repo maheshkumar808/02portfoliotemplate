@@ -3,15 +3,15 @@ import React from 'react';
 function Top() {
   return (
     <section id="top" className="w-full bg-white">
-      <div className="lg:max-w-screen-xl lg:h-screen mx-auto justify-center items-center flex flex-col">
-        <div className="grid md:grid-cols-12  ">
-          <div className="w-full col-span-4 ">
+      <div className="lg:max-w-screen-xl xl:h-screen mx-auto justify-center items-center flex flex-col">
+        <div className="w-full grid md:grid-cols-12  ">
+          <div className="w-full md:col-span-4 ">
             <img
               className="rounded-[10rem]"
               src="https://html5up.net/uploads/demos/miniport/images/pic00.jpg"
             />
           </div>
-          <div className="w-full col-span-8 p-8 text-left">
+          <div className="w-full md:col-span-8 p-8 text-left">
             <h1 className="text-5xl text-black">
               Hi. I'm <strong>Harish</strong>
             </h1>

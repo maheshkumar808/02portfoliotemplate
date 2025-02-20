@@ -7,16 +7,16 @@ import { TiMessages } from 'react-icons/ti';
 function work() {
   return (
     <section id="work" className="w-full bg-slate-100">
-      <div className="lg:max-w-screen-xl justify-items-center mx-auto py-10 ">
+      <div className="lg:max-w-screen-xl justify-items-center mx-auto py-10 px-6 ">
         <div className="w-full  text-center">
-          <h1 className="text-3xl text-gray-800 font-bold  py-6">
+          <h1 className="text-4xl text-gray-800 font-bold  py-6">
             Here's all the stuff I do.
           </h1>
           <p className="text-lg text-gray-600 py-6">
             Odio turpis amet sed consequat eget posuere consequat.
           </p>
         </div>
-        <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
+        <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-6 justify-center">
           <div className="col-span-1">
             <Card icon=<FaCameraRetro /> tittle={'Consequat lorem'} />
           </div>
