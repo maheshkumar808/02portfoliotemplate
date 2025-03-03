@@ -59,7 +59,7 @@ function ContactForm() {
     }
 
     try {
-      const accessKey = process.env.NEXT_EMAIL_ACCESS_KEY;
+      const accessKey = process.env.NEXT_PUBLIC_EMAIL_ACCESS_KEY;
       console.log('accessKey', accessKey);
       const formData2 = new FormData();
       formData2.append('name', formData.name);
