@@ -6,7 +6,7 @@ function Portfolio() {
     <section id="portfolio" className="w-full bg-slate-200">
       <div className="lg:max-w-screen-xl justify-items-center mx-auto py-10 p-6 ">
         <div className="w-full  text-center">
-          <h1 className="text-4xl text-gray-800 font-bold ">
+          <h1 className="text-4xl text-gray-800 font-bold p-6">
             Here's some stuff I made recently.
           </h1>
           <p className="text-lg text-gray-600 p-6">

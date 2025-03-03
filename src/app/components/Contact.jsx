@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactForm from './elements/ContactForm';
 import SocialContacts from './elements/SocialContacts';
+import Footer from './Footer';
 function Contact() {
   return (
     <section id="contact" className="w-full bg-gray-500">
@@ -17,15 +18,18 @@ function Contact() {
         <div className="w-full border-b-2 border-gray-700 pb-2">
           <ContactForm />
         </div>
-        <div className="w-full py-10 border-b-2 border-gray-700 ">
+        <div className="w-full  border-b-2 border-gray-700 ">
           <div className="w-full text-center py-5">
             <h1 className="text-3xl text-gray-800 font-bold ">
               Find me on ...
             </h1>
           </div>
-          <div className="w-full">
+          <div className="w-full ">
             <SocialContacts />
           </div>
+        </div>
+        <div className="w-full border-b-2 border-gray-700">
+          <Footer />
         </div>
       </div>
     </section>

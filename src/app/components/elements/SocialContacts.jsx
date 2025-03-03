@@ -9,7 +9,7 @@ import { FaSnapchatGhost } from 'react-icons/fa';
 
 function SocialContacts() {
   return (
-    <section className="w-full flex justify-center text-center  gap-4 py-6">
+    <section className="w-full flex flex-wrap mx-auto justify-center text-center  gap-4 p-6  ">
       <div className="size-12  bg-gray-600 flex items-center justify-center hover:bg-sky-600 hover:-translate-y-2 rounded-lg">
         <IoLogoTwitter className="size-8 text-gray-500 hover:text-gray-600" />
       </div>
