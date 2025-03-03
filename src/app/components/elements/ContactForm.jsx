@@ -59,12 +59,14 @@ function ContactForm() {
     }
 
     try {
+      const accessKey = process.env.NEXT_EMAIL_ACCESS_KEY;
+      console.log('accessKey', accessKey);
       const formData2 = new FormData();
       formData2.append('name', formData.name);
       formData2.append('email', formData.email);
       formData2.append('subject', formData.subject);
       formData2.append('message', formData.message);
-      formData2.append('access_key', process.env.NEXT_EMAIL_ACCESS_KEY);
+      formData2.append('access_key', accessKey);
 
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
@@ -91,7 +93,7 @@ function ContactForm() {
       console.log('error', error);
       Swal.fire({
         title: 'Error!',
-        text: 'Something went wrongddd',
+        text: 'Something went wrong',
         icon: 'error',
       });
     }
